@@ -61,7 +61,7 @@ end
 function StartSortieFour()
     local _i = 1
     local _prefix = "S4_"
-    local _zoneSortieFour = ZONE:FindByName("SORTIE 4: A2G-SCAR")
+    local _zoneSortieFour = ZONE:FindByName("4:A2G-SCAR")
 
     while (_DATABASE.Templates.Groups[_prefix.._i]) do
         local _group = _prefix.._i
