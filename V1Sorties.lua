@@ -96,7 +96,7 @@ end
 
 --Sortie 8 QRA(I): Spawn a random group to intercept from 3 locations
 function StartSortieEight()
-    local _i = math.random(3)
+    local _i = math.random(6)
     local _prefix = "S8_"
 
     local _group = _prefix.._i
